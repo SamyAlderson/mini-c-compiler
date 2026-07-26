@@ -1,34 +1,19 @@
-# .gitignore
+# Ignore node_modules and yarn.lock
+node_modules/
+yarn.lock
 
-# ignore build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
-
-# ignore IDE files
+# Ignore IDE files
 .idea/
 .vscode/
 
-# ignore logs
-logs/
+# Ignore build artifacts
+build/
 
-# ignore node_modules
-node_modules/
+# Ignore Docker files
+docker/
 
-# ignore coverage reports
-coverage.xml
-coverage.html
+# Ignore Python cache
+__pycache__/
 
-# ignore pip cache
-pip-wheel-wheelhouse/
-pip-cache/
-
-# ignore docker images
-docker-images/
-docker-compose.log
-
-# ignore git submodules
-.gitmodules
-.gitignore
-.gitattributes
+# Ignore virtualenv
+venv/
