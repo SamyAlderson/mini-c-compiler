@@ -1,19 +1,35 @@
-# Ignore node_modules and yarn.lock
-node_modules/
-yarn.lock
-
-# Ignore IDE files
+# Ignore everything in the .idea directory
 .idea/
+
+# Ignore everything in the .vscode directory
 .vscode/
 
-# Ignore build artifacts
+# Ignore everything in the node_modules directory
+node_modules/
+
+# Ignore everything in the venv directory
+venv/
+
+# Ignore everything in the .git directory
+.git/
+
+# Ignore everything in the .gitignore itself
+*.gitignore
+
+# Ignore logs
+*.log
+
+# Ignore everything in the build directory
 build/
 
-# Ignore Docker files
-docker/
+# Ignore everything in the dist directory
+dist/
 
-# Ignore Python cache
-__pycache__/
+# Ignore everything in the coverage directory
+coverage/
 
-# Ignore virtualenv
-venv/
+# Ignore everything in the .pytest_cache directory
+.pytest_cache/
+
+# Ignore everything in the __pycache__ directory
+__pycache__
