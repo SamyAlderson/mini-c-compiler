@@ -1,35 +1,29 @@
-# Ignore everything in the .idea directory
-.idea/
+# ignore .idea and .vscode dirs
+.idea
+.vscode
 
-# Ignore everything in the .vscode directory
-.vscode/
+# ignore .env file
+.env
 
-# Ignore everything in the node_modules directory
-node_modules/
+# ignore node_modules and yarn.lock
+node_modules
+yarn.lock
 
-# Ignore everything in the venv directory
-venv/
+# ignore build and dist dirs
+build
+dist
 
-# Ignore everything in the .git directory
-.git/
+# ignore coverage dir
+coverage
 
-# Ignore everything in the .gitignore itself
-*.gitignore
-
-# Ignore logs
-*.log
-
-# Ignore everything in the build directory
-build/
-
-# Ignore everything in the dist directory
-dist/
-
-# Ignore everything in the coverage directory
-coverage/
-
-# Ignore everything in the .pytest_cache directory
-.pytest_cache/
-
-# Ignore everything in the __pycache__ directory
+# ignore pycache dirs
 __pycache__
+
+# ignore other IDEs
+eclipse
+
+# ignore other IDEs
+pycharm
+
+# ignore other IDEs
+intellij
